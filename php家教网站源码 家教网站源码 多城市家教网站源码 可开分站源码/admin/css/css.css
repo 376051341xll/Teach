@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0;}
+body{font-family:Arial, "宋体"; font-size:13px;}
+html{overflow:auto;  _overflow-x:hidden;}
+body{overflow:auto; _margin-left:-8px; }
+a{text-decoration:none; color:#000}
+ul,li{list-style-type:none;}
+img{border:none;}
+input{background:none; border:1px solid #B4CFD8;}
+input.textBox{width:260px; height:24px; line-height:24px;}
+input.subBtn{width:80px; height:24px; line-height:24px; cursor:pointer;}
+textarea.textarea{width:500px; height:80px; border:1px solid #B4CFD8;}
+.editor{width:500px; height:200px;}
+.searchspan{color:red;}
+.showtr{cursor:pointer;}
+.hidetr{display:none;}
+.hidetr td{font-weight:bold; background:#EAF4FD;}
+span.msg{color:red;}
+/*table*/
+table{margin:12px auto; border:1px solid #EAF4FD;}
+td{overflow:hidden; padding:4px 0;border-bottom:1px solid #EAF4FD;}
+tr.trTitle{background:#EAF4FD;}
+
+/*page*/
+.pageDiv{width:100%; height:26px; line-height:26px; overflow:hidden;}
+.pageLeft{width:28%; padding-left:2%; height:26px; float:left; text-align:left;}
+.pageRight{width:60%; padding-right:5%; height:26px; float:right; text-align:right;}

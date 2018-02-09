@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background:url(../images/loginBg.jpg) repeat-x; font-size:12px;}
+input{border:none;}
+img{position:absolute;}
+form{display:inline;}
+
+.loginBox{width:400px; height:276px; margin:0 auto; margin-top:152px;}
+
+.loginLogo{width:400px; height:80px; overflow:hidden; background:url(../images/login_logo.jpg) no-repeat;}
+
+.loginBlack{width:400px; height:40px; overflow:hidden; background:url(../images/loginBlack.jpg) no-repeat;}
+
+.loginMain{width:400px; height:142px; background:url(../images/loginMainBg.jpg) repeat-y center;}
+.loginMainMain{width:200px; height:142px; margin:0 auto;}
+.loginMainMain ul{width:200px; height:142px; overflow:hidden;}
+.loginMainMain ul li{width:200px; overflow:hidden; word-spacing:normal; height:26px; margin:6px 0;}
+.loginMainMain ul li strong{color:#0099CC; display:block; display:inline-block; width:55px; height:26px; line-height:26px; overflow:hidden; float:left;}
+input.textbox{width:134px; height:24px; line-height:24px; overflow:hidden; border:1px solid #DBDBDB; background:#FDFDFD;}
+input.textboxCode{width:67px;}
+input.button{width:62px; height:26px; border:none; overflow:hidden; cursor:pointer;}
+input.loginBTN{background:url(../images/loginBTN.jpg) no-repeat; margin-right:10px;}
+input.resetBTN{background:url(../images/resetBTN.jpg) no-repeat;}
+
+
+.loginBottom{width:400px; height:15px; background:url(../images/loginBottom.jpg) no-repeat;}
